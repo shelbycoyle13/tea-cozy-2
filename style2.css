@@ -1,0 +1,134 @@
+html {
+        background-color: black;
+        color: seashell;
+        opacity: .9;
+        font-family: Helvetica;
+}
+
+body {
+    width: 1300px;
+}  
+        
+p {
+    font-size: 22px;
+}
+
+        header {
+            height: 69px;
+            width: 1300px;
+            border-bottom: 1px solid seashell;
+            display: inline-flex;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            background-color: black;
+        }
+
+        .logo {
+            height: 50px;
+            margin-left: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            text-decoration: underline;
+            display: inline-flex;
+        }
+
+        li {
+            margin: 0 5px;
+        }
+        
+        .hero {
+            height: 700px;
+            width: 1200px;
+            background-image: url("img/img-mission-background.jpg");
+            background-size: cover;
+            background-color: pink;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 50px;
+            
+        }
+
+        .mission {
+            background-color: black;
+            width: 1200px;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            flex-direction: column;
+            }
+        
+        .month {
+            width: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 50 auto;
+        }
+
+        .tea-flavors {
+            display: inline-flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        .tea-flavor-picture {
+            height: 200px;
+            width: 300px;
+            margin: 10px 15px;
+        }
+
+        .tea-flavors p {
+            text-align: center;
+            margin: 10px 0;
+        }
+        
+        .locations-container {
+            height: 500px;
+            width: 1200px;
+            background-image: url(img/img-locations-background.jpg);
+            background-size: cover;
+            background-position: center top;
+            margin: 0 50px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            padding-bottom: 60px;
+        }
+
+        .locations-header {
+            flex: 0 0 100%;
+            text-align: center;
+        }
+
+        .box {
+            width: 300px;
+            height: 260px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            margin: 15px 40px;
+            text-align: center;
+            opacity: 1;
+        }
+        
+        .contact {
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        footer {
+            margin-left: 20px;
+        }
